@@ -1,0 +1,26 @@
+@font-face {
+    font-family: BubblegumSans;
+    src: url("Content/BubblegumSans-Regular.ttf") format("opentype");
+}
+
+body {
+    font-family: "BubblegumSans", sans-serif !important;
+    background-color: #121212;
+    color: antiquewhite;
+}
+  
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2vw;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+}
